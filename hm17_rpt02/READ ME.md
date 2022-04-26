@@ -1,6 +1,6 @@
-###HM17 두번째 홈피 프로젝트
+HM17 두번째 홈피 프로젝트
 
-##파일구조 및 설명
+파일구조 및 설명
 
 hm17_rpt02.html : 나의 시작 홈피- 시멘틱 태그로 화면 구성 * 메뉴들은 header위치 nav자리에는 리모컨 기능을 넣어둠 aside 위치는 간단한 메모장을 넣어둠
 hm17_Travel3.html : 좋아하는 여행지 소개, datalist를 사용, datalist에 따른 각각 이미지를 넣어둠
@@ -16,7 +16,7 @@ maps.html : iframe을 사용해 지도를 삽입함.
 MERRY X-MAS.html : 크리스마스 파티 초대장 페이지, 장식과 트리, 그 외 텍스트들을 position으로 배치, animation과 transform을 이용한 동적 변화 사용
 Text.html : 메모장 페이지, label를 사용해 구현
 
-##사용한 html, css 기술
+사용한 html, css 기술
 시맨틱 태그
 list
 p

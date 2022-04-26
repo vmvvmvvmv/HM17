@@ -6,9 +6,9 @@ HM17 두번째 홈피 프로젝트
 * hm17_Travel3.html : 좋아하는 여행지 소개, datalist를 사용, datalist에 따른 각각 이미지를 넣어둠
 * hm17_Movie : 좋아하는 영화 소개, datalist를 사용, datalist에 따른 각각 이미지를 넣어둠
 * hm17_music.html :  좋아하는 노래 소개, datalist를 사용, 링크를 걸어둠으로써 해당 HTML로 이동
- * iu.html : 좋아하는 노래 1 페이지 (iframe 사용)
- * limousine.html : 좋아하는 노래 2 페이지 (iframe 사용)
- * star.html : 좋아하는 노래 3 페이지 (iframe 사용)
+ ** iu.html : 좋아하는 노래 1 페이지 (iframe 사용)
+ ** limousine.html : 좋아하는 노래 2 페이지 (iframe 사용)
+ ** star.html : 좋아하는 노래 3 페이지 (iframe 사용)
 * hm17_day.html : 하루 일과 페이지, css를 사용한 꾸미기와 table를 이용해 하루 일과를 표현
 * form.html : 동호회 가입 페이지- fieldset, web form을 사용해 표현, section에 나타나게 함
 * main.html : 메인화면의 사진을 넣기 위해 사용

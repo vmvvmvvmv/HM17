@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <title>FORM</title>
+ </head>
+ <body>
+	 <h3>동호회 회원가입</h3><br />
+ <form>
+	<fieldset>
+		<legend>개인정보</legend>
+		<form>아이디, 비밀번호<br />
+			<input type="text" autofocus placeholder="아이디" />
+			<input type="text" autofocus placeholder="비밀번호" />
+		   </form>
+<form><br />
+
+ <form>
+  전화번호<br />
+  <select name="phone1">
+   <option value="0">선택</option>
+   <option value="010">010</option>
+   <option value="011">011</option>
+  </select>&nbsp;-&nbsp;
+  <input type="text" name="phone2" maxlength="4" />&nbsp;-&nbsp;
+  <input type="text" name="phone3" maxlength="4" />
+
+ </form>
+
+ <br>
+
+ 성별<br />
+ <input type="radio" id="male1" name="gender" value="male" checked />
+ <label for="male1">남성</label>
+
+ <input type="radio" id="female1" name="gender" value="female1" />
+ <label for="female1">여성</label> 
+</form>
+
+ <!--
+ date : 달력만 표시됨
+ week : 주간 단위로만 선택이 가능한 달력
+ month : 월간 단위롬나 선택이 가능한 달력
+ time : 시간만 선택할 수 있는 기본 시간폼
+ -->
+
+
+ <form><br />
+  생년월일<br />
+  <input type="date" />
+ </form>
+
+ <form><br />
+	주소<br />
+	<input name="Where" list="countries" placeholder="장소">
+	<datalist id="countries">
+	<option value="서울특별시">
+	<option value="경상님도">
+	<option value="경상북도">
+	<option value="전라남도">
+	<option value="전라북도">
+	<option value="전라남도">
+	<option value="충청남도">
+	<option value="충청북도">
+	<option value="경기도">
+	<option value="강원도">
+	<option value="제주도">
+	</datalist>
+ </form>
+ <form>
+    <input type="text" autofocus placeholder="도시" />
+    <input type="text" autofocus placeholder="주소1" />
+    <input type="text" autofocus placeholder="주소2" />
+ </form>
+  <form><br />
+	동의 사항<br />
+	<input type="checkbox" id="chb1" name="job" value="1" /> 
+	<label for="chb1">개인정보 사용 동의</label><br />
+   
+	<input type="checkbox" id="chb2" name="job" value="2" /> 
+	<label for="chb2">광고 수신 동의</label><br />
+  
+	<input type="checkbox" id="ch3" name="job" value="3" /> 
+	<label for="ch3">체크해주세요^^</label><br />
+</form>
+</fieldset>
+<form><br />
+
+	<button type="button" onclick="location.href='welcome.html' ">제출하기</button>
+
+</form>
+ </body>
+</html>

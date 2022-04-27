@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+  <head>
+    <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+    <meta charset="utf-8" />
+    <title>hm17 music best3</title>
+
+    <script>
+      function load() {
+        var select = document.getElementById("site");
+        window.location = select.options[select.selectedIndex].value, EventTarget;
+      }
+    </script>
+  </head>
+
+  <body>
+    
+    <section class="section" id="main">
+    <!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+    <h3 style="font-size: 30px;">나의 BEST 3 노래</h3>
+    <hr />
+    <h1 style="font-size: 20px;">노래 선택 :</h1>
+    <select id="site">
+      <option style="font-size: 15px;" value="iu.html">아이유 - 아이와 나의 바다 </option>
+      <option style="font-size: 15px;" value="limousine.html" >비오 - 리무진 </option>
+      <option style="font-size: 15px;" value="star.html" >비오 - 네가 없는 밤 </option>
+    </select>
+
+    <p>
+      <button onclick="load()" style="font-size: 15px;">노래 링크</button>
+    </p>
+  </section>
+
+  </body>
+</html>

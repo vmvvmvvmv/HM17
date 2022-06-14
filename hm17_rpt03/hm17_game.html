@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+        <!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+        <html>
+        <head>
+            <!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+            <meta charset="utf-8">
+            <title>랜덤 난수 게임</title>
+            <style>
+                #out {
+                    position: absolute;
+                    top : 50px;
+                    border: 2px solid black;
+                    width: 400px;
+                    height: 600px;
+                    background-color: white;
+                }
+            </style>
+        <script>
+            var rand;
+            var numb = 0;
+        
+
+        window.onload=function(){
+            rand = parseInt(Math.random()*100)+1;
+        }
+
+        function check(su) {
+            numb++;
+            if(su>rand) 
+            out.innerHTML += numb +" 번째 도전 " + su + "보다 작습니다"+"<br>";
+            
+            else if(su < rand) 
+                out.innerHTML += numb + "번째 도전 " + su + "보다 큽니다"+"<br>";
+            
+            else {
+                out.innerHTML="와! 정답이에요! " + rand + "이였답니다"
+            }
+            if(numb>=10) {
+                out.innerHTML="다음 기회에!";
+            }
+            frm.num.value='';
+            frm.num.focus();
+        }
+        </script>
+        </head>
+        <body>
+            <form action="#" name ="frm" onsubmit="return false">
+                <b>숫자입력 : </b>
+                <input type="text" name ="num" size ="5"
+                onkeydown="if(event.keyCode==13) check(value)">
+            </form>
+            
+            <div id = "out"></div>
+        </body>
+        </html>

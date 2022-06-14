@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+  <meta charset="utf-8">
+    <title>santa</title>
+  </head>
+  <script>
+    var grade;
+    var age = prompt("당신의 나이를 입력하세요",100);
+    age = parseInt(age);
+    if (age >= 14) 
+    grade = "허허, 너는 이제 선물받을 나이가 아니잖니, 그래도 초대장은 받거라"
+    else 
+    grade = "아이쿠, 우리 어린 친구~ 자, 산타의 초대장이에요"
+    document.write(grade)
+
+    function load(URL) {
+        window.open(URL, "myWin", "left=300,width=450,height=700");
+      }
+  </script>
+  <body>
+    <hr color = "black" width="100%">
+    <h1>산타의 초대장</h1>
+
+    <hr color = "black" width="100%">
+     
+    <a href="javascript:load('MERRY X-MAS.html')" text-decoration : none;> 
+      <img src="media/산타.png" width="300" height="300"alt="My Image">
+    </a>
+<br>
+<h3>산타를 클릭해보세요!</h3>
+  </body>
+</html>
